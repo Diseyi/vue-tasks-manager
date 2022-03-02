@@ -20,6 +20,7 @@
 
 <script>
 export default {
+  name: "RandomUser",
   data() {
     return {
       firstName: "John",
@@ -46,7 +47,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .male {
   border: 4px solid skyblue;
   background: skyblue;
